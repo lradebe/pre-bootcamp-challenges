@@ -1,9 +1,10 @@
 a, b = input ("Try your luck: "), input ("Try again: ")
+a = int (a)
+b = int (b)
 c = a + b
+c = str (c)
 
-sub_str = "3"
-
-if a.find (sub_str) == -1 or b.find (sub_str) == -1 and c.find (sub_str) == -1:
+if a == 3 or b == 3 and c.find ('3') == -1:
     print ("FALSE")
 else:
     print ("TRUE!")
