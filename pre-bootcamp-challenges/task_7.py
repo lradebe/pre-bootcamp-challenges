@@ -1,29 +1,29 @@
 #defining a function that takes the temp in Celcius 
 #and converts it to Fereignheit
-def get_F ():
+def get_Fereignheit_temp():
 
 #taking input of Celcius temperature
-  C_t = input ("What is the temperature in °C? ")
+  celcius_temp = input("What is the temperature in °C? ")
 #converting input into an integer
-  C_t = int (C_t)
+  celcius_temp = int(celcius_temp)
 #formula that actually does the conversion to fereignheit
-  sum = C_t * 9/5 + 32
-  print ("°C in Fereignheit is: ", sum)
+  sum = celcius_temp * 9/5 + 32
+  print("°Celcius in Fereignheit is: ", sum)
 
 #calling out function
-get_F ()
+get_Fereignheit_temp()
 
 
 #defining  function that does reverse of first function
-def get_C ():
+def get_celcius_temp():
 
-  F_t = input ("What is the temperature in Fereignheit? ")
+  Fereignheit_temp = input("What is the temperature in Fereignheit? ")
 
-  F_t = int (F_t)
+  Fereignheit_temp = int(Fereignheit_temp)
 
-  sum = (F_t - 32)* 5/9
+  sum = (Fereignheit_temp - 32)* 5/9
 
-  print ("Fereignheit in °C is: ", sum)
+  print("Fereignheit in °C is: ", sum)
 
 #calling out function
-get_C ()
+get_celcius_temp()

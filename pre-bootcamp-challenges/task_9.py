@@ -1,5 +1,5 @@
 #the range of 0 to 1000 is assigned to numbers
-numbers = range (0, 1000)
+numbers = range(0, 1000)
 #we start with no multiples
 multiples = 0
 
@@ -14,4 +14,4 @@ for i in numbers:
 
 
 #show the sum of all the multiples of 3 and 5 below 1000
-print (multiples)
+print(multiples)
