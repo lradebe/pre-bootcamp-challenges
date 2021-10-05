@@ -1,4 +1,3 @@
-#the range of 0 to 1000 is assigned to numbers
 numbers = range(0, 1000)
 #we start with no multiples
 multiples = 0

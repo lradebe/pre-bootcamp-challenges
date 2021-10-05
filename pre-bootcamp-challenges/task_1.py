@@ -1,9 +1,6 @@
-x = 0 #assigning 0 into x
-y = 1 # assigning 1 into y
-print(x)
-print(y)
-x = x + 3  #from the previously assigned value of x, add 3 to it
-y = y + x #from the previously assigned value of y, add the new value of x to y
-print(x) #print new value of x
-print(y) #print new value of y
- 
+variable_1 = 0
+variable_2 = 1
+print(f'{variable_1}\n{variable_2}')
+v1 = variable_1 + 3
+v2 = variable_2 + v1
+print(f'{v1}\n{v2}')
